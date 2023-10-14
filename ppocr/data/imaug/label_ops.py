@@ -98,7 +98,7 @@ class BaseRecLabelEncode(object):
             'ch', 'en', 'EN_symbol', 'french', 'german', 'japan', 'korean',
             'EN', 'it', 'xi', 'pu', 'ru', 'ar', 'ta', 'ug', 'fa', 'ur', 'rs',
             'oc', 'rsc', 'bg', 'uk', 'be', 'te', 'ka', 'chinese_cht', 'hi',
-            'mr', 'ne', 'latin', 'arabic', 'cyrillic', 'devanagari'
+            'mr', 'ne', 'latin', 'arabic', 'cyrillic', 'devanagari', 'vi'
         ]
         assert character_type in support_character_type, "Only {} are supported now but get {}".format(
             support_character_type, character_type)
