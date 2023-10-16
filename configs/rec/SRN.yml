@@ -55,9 +55,9 @@ Metric:
 Train:
   dataset:
     name: SimpleDataSet
-    data_dir: /content/drive/MyDrive/AIO/kalapa challenge/data_train/images
+    data_dir: /content/drive/MyDrive/AIO/kalapa_challenge/data_train/images
     label_file_list:
-    - /content/drive/MyDrive/AIO/kalapa challenge/data_train/rec_gt_train.txt
+    - /content/drive/MyDrive/AIO/kalapa_challenge/data_train/rec_gt_train.txt
     ratio_list:
     - 1
     transforms:
@@ -87,9 +87,9 @@ Train:
 Eval:
   dataset:
     name: SimpleDataSet
-    data_dir: /content/drive/MyDrive/AIO/kalapa challenge/data_train/images
+    data_dir: /content/drive/MyDrive/AIO/kalapa_challenge/data_train/images
     label_file_list:
-    - /content/drive/MyDrive/AIO/kalapa challenge/data_train/rec_gt_train.txt
+    - /content/drive/MyDrive/AIO/kalapa_challenge/data_train/rec_gt_train.txt
     ratio_list:
     - 1
     transforms:
